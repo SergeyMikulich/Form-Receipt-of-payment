@@ -1,0 +1,208 @@
+.ban {
+    border: none
+}
+
+.btn {
+    border-top: none
+}
+
+.brn {
+    border-right: none
+}
+
+.bbn {
+    border-bottom: none
+}
+
+.bln {
+    border-left: none
+}
+
+.tac {
+    text-align: center
+}
+
+.tar {
+    text-align: right
+}
+
+.info {
+    vertical-align: top;
+    font-weight: 700;
+    font-size: 1.4em;
+    padding-top: 1%
+}
+
+body {
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: Arial,Helvetica;
+    font-size: 9pt
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0
+}
+
+td {
+    border: 1px solid #000;
+    padding: 0;
+    margin: 0
+}
+
+.main {
+    width: 800px;
+    margin: 0 auto
+}
+
+.main_row .fmtd {
+    width: 20%;
+    border-right: 3px solid #000;
+    border-bottom: 7px solid #000
+}
+
+.main_row .smtd {
+    width: 80%;
+    padding-left: 1%;
+    border-bottom: 7px solid #000
+}
+
+.otr1 {
+    width: 20%
+}
+
+.otr2 {
+    width: 80%
+}
+
+.info_1 .ftd {
+    width: 75%
+}
+
+.info_1 .std {
+    width: 3%
+}
+
+.info_1 .ttd {
+    width: 22%
+}
+
+.info_2 {
+    width: 100%
+}
+
+.ftd2 {
+    width: 40%
+}
+
+.std2 {
+    width: 60%
+}
+
+.ftd3 {
+    width: 30%
+}
+
+.std3 {
+    width: 70%
+}
+
+.ftd4 {
+    width: 18%
+}
+
+.std4 {
+    width: 26%
+}
+
+.ttd4 {
+    width: 12%;
+    padding-left: 4%
+}
+
+.fourtd4 {
+    width: 40%
+}
+
+.form-width {
+    max-width: 25rem
+}
+
+.has-float-label {
+    position: relative
+}
+
+.has-float-label label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: text;
+    font-size: 75%;
+    opacity: 1;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    top: -.5em;
+    left: .75rem;
+    z-index: 3;
+    line-height: 1;
+    padding: 0 1px
+}
+
+.has-float-label label:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    background: #fff;
+    height: 2px;
+    top: 50%;
+    left: -.2em;
+    right: -.2em;
+    z-index: -1
+}
+
+#tax:before {
+    content: 'Розрахунок';
+    position: absolute;
+    top: -2px;
+    line-height: 3px;
+    font-size: .8rem;
+    background: #fff;
+    color: red
+}
+
+.has-float-label .form-control::-webkit-input-placeholder {
+    opacity: 1;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.has-float-label .form-control:placeholder-shown:not(:focus)::-webkit-input-placeholder {
+    opacity: 0
+}
+
+.has-float-label .form-control:placeholder-shown:not(:focus)+label {
+    font-size: 100%;
+    opacity: .5;
+    top: .3em
+}
+
+.input-group .has-float-label {
+    display: table-cell
+}
+
+.input-group .has-float-label .form-control {
+    border-radius: .25rem
+}
+
+.input-group .has-float-label:not(:last-child) .form-control {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0
+}
+
+.input-group .has-float-label:not(:first-child) .form-control {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    margin-left: -1px
+}
